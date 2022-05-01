@@ -1,0 +1,77 @@
+body{
+    padding: 100px;
+    background-color: #212529;
+}
+.pin-generate, .pin-match{
+    background-color: #222436;
+    padding: 30px 30px;
+    text-align: center;
+    height: 570px;
+}
+#pin-generator, #pin-matcher{
+    background-color: #3D4153;
+    border: 2px solid #858299;
+    width: 80%;
+    height: 50px;
+    color: white;
+    text-align: right;
+    font-size: 25px;
+}
+#generate-btn{
+    background-color: #495BC3;
+    color: white;
+    margin-top: 140px;
+    font-size: 22px;
+    height: 180px;
+    border-radius: 50%;
+    width: 180px;
+    font-weight: bold;
+    border:8px solid #39458C;
+}
+input[type="button"]{
+    height: 80px;
+    width: 100px;
+    margin: 5px;
+    font-size: 25px;
+    font-weight: 600;
+}
+#submit-btn{
+    background-color: #495BC3;
+    margin-top: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    width: 65%;
+}
+p{
+    color: #FF3C5F;
+    margin-top: 10px;
+    display: block;
+}
+h6{
+    background-color: #222436;
+    color: white;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    padding:10px 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+
+
+/* massage */
+#wrong, #wright{
+    display: none;
+}
+.wrong{
+    font-size: 21px;
+    margin-right: 14px;
+    color: red;
+}
+.check{
+    font-size: 21px;
+    margin-right: 14px;
+    color: green;
+}
